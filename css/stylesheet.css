@@ -15,6 +15,7 @@ body {
 	color: var(--font-color);
 	animation: fadein 1s;
 	text-align: center;
+	font-size: 14px;
 }
 
 header {
