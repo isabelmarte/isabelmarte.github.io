@@ -271,6 +271,63 @@ nav a:hover {
     height: auto;
 }
 
+#showcase4 {
+    max-width: 1000px;
+    margin:auto;
+    animation: fadein 3s;
+    animation-timing-function: ease-in;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+#showcase4 a {
+    display: block;
+    width: 300px;
+    margin: 10px;
+    padding: 0px;
+    border: 0px;
+    background-color: black;
+}
+
+#showcase4 a img {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+#showcase4 a img:hover {
+    opacity: .3;
+}
+
+#showcase4 img {
+    display:block;
+    max-width:100%;
+    width:auto;
+    height:auto;
+}
+
+#showcase4 .infoitem h1 {
+    color: var(--title-color);
+}
+
+#showcase4 .infoitem{
+    margin: 10px;
+    max-width: 450px;
+}
+
+#showcase4 blockquote {
+    border-left: 10px solid #DDDDDD;
+    padding-left: 20px;
+    margin-left: 0px;
+}
+
+#showcase4 .img-responsive {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 .alignleft {
     flex-flow: row;
     justify-content: flex-start;
