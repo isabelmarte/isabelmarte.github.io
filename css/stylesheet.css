@@ -18,6 +18,11 @@ body {
 	font-size: 14px;
 }
 
+logofont {
+	font-size: 28px;
+	color: #003E4D;
+}
+
 header {
     width: 100%;
     max-width: 1000px;
