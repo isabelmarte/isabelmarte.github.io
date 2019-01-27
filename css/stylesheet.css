@@ -109,21 +109,6 @@ nav a:hover {
     flex-flow: wrap;
     justify-content: center;
 }
-
-#showcase2 {
-    max-width: 1000px;
-    margin:auto;
-    animation: fadein 3s;
-    animation-timing-function: ease-in;
-    display: flex;
-    flex-flow: wrap;
-    justify-content: center;
-}
-.alignleft {
-    flex-flow: row;
-    justify-content: flex-start;
-}
-
 #showcase a {
     display: block;
     width: 300px;
@@ -171,6 +156,69 @@ nav a:hover {
     width: 100%;
     height: auto;
 }
+
+#showcase2 {
+    max-width: 1000px;
+    margin:auto;
+    animation: fadein 3s;
+    animation-timing-function: ease-in;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+#showcase2 a {
+    display: block;
+    width: 300px;
+    margin: 10px;
+    padding: 0px;
+    border: 0px;
+    background-color: black;
+}
+
+#showcase2 a img {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+#showcase2 a img:hover {
+    opacity: .3;
+}
+
+#showcase2 img {
+    display:block;
+    max-width:100%;
+    width:auto;
+    height:auto;
+}
+
+#showcase2 .infoitem h1 {
+    color: var(--title-color);
+}
+
+#showcase2 .infoitem{
+    margin: 10px;
+    max-width: 450px;
+}
+
+#showcase2 blockquote {
+    border-left: 10px solid #DDDDDD;
+    padding-left: 20px;
+    margin-left: 0px;
+}
+
+#showcase2 .img-responsive {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.alignleft {
+    flex-flow: row;
+    justify-content: flex-start;
+}
+
+
 
 footer {
     background-color: #141414;
