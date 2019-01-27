@@ -130,10 +130,10 @@ nav a:hover {
 }
 
 #showcase img {
-    display:block;
-    max-width:100%;
-    width:auto;
-    height:auto;
+	display:block;
+	max-width:100%;
+	width:auto;
+	height:auto;
 }
 
 #showcase .infoitem h1 {
