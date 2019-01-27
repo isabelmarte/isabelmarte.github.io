@@ -9,11 +9,12 @@
 }
 
 body {
-    width:100%;
-    margin:auto;
-    font-family: "Source Sans Pro";
-    color: var(--font-color);
-    animation: fadein 1s;
+	width:100%;
+	margin:auto;
+	font-family: "Source Sans Pro";
+	color: var(--font-color);
+	animation: fadein 1s;
+	text-align: center;
 }
 
 header {
