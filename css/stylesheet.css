@@ -110,6 +110,15 @@ nav a:hover {
     justify-content: center;
 }
 
+#showcase2 {
+    max-width: 1000px;
+    margin:auto;
+    animation: fadein 3s;
+    animation-timing-function: ease-in;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
 .alignleft {
     flex-flow: row;
     justify-content: flex-start;
